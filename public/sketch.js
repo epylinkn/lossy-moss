@@ -8,12 +8,12 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight)
+  createCanvas(480, 800)
 
   textAlign(CENTER, CENTER)
   textFont(roboto)
   textSize(24)
-  bg = loadImage('assets/images/moonwalk.jpg');
+  bg = loadImage('assets/images/family-photo.jpg');
 
 
   colors = {
